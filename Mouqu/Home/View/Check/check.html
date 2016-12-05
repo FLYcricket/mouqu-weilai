@@ -1,0 +1,38 @@
+<include file="Common:header"/>
+<div id="dcMain">
+    <!-- 当前位置 -->
+    <div id="urHere">谋趣 管理中心<b>></b><strong>用户审核列表</strong> </div>   <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
+    <div id="list"><h3>用户审核</h3>
+        <form name="action" method="post" action="{:U('Article/delete_all_article')}">
+            <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+                <tr>
+                    <th width="40" align="center">ID</th>
+                    <th width="40">用户名</th>
+                    <th width="100" align="center">姓名</th>
+                    <th width="100" align="center">审核状态</th>
+                    <th width="100" align="center">备注</th>
+                    <th width="80" align="center">操作</th>
+                </tr>
+
+                <volist name="check" id="check">
+                    <tr>
+                        <td align="center">{$check.id}</td>
+                        <td align="center">{$check.username}</td>
+                        <td align="center">{$check.name}</td>
+                        <td align="center">{$check.status}</td>
+                        <td align="center">{$check.remarks}</td>
+                        <td align="center">
+                            <a href="{:U('Check/info')}?id={$check.id}"><span style="color: #ff1228">【审核】</span></a>
+                        </td>
+                    </tr>
+                </volist>
+            </table>
+        </form>
+        <div class="page1">
+            {$pager->show()}
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+</div>
+<include file="Common:footer"/>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>谋趣科技-管理中心</title>
+    <meta name="Copyright" content="Douco Design." />
+    <link href="__PUBLIC__/cms_1/css/public.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="__PUBLIC__/cms_1/js/jquery.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/cms_1/js/global.js"></script>
+</head>
+<body>
+<div id="dcWrap"> <div id="dcHead">
+    <div id="head">
+        <div class="logo"><a href="index.html"><img src="__PUBLIC__/cms_1/images/dclogo.gif" alt="logo"></a></div>
+        <div class="nav">
+
+            <ul class="navRight">
+                <li class="M noLeft"><a href="JavaScript:void(0);">您好,<php>echo $_SESSION['user_name']</php></a>
+                    <div class="drop mUser">
+                        <a href="manager.php?rec=edit&id=1">编辑我的个人资料</a>
+                        <a href="manager.php?rec=cloud_account">设置云账户</a>
+                    </div>
+                </li>
+                <li class="noRight"><a href="{:U('Index/loginout')}">退出</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <!-- dcHead 结束 --> <div id="dcLeft"><div id="menu">
+        <ul >
+            <li><a href="{:U('Index/index')}"><i class="home"></i><em>管理首页</em></a></li>
+       <!-- </ul>
+        <ul>-->
+            <li><a href="{:U('Orders/orders')}"><i class="page"></i><em>订单管理</em></a></li>
+            <li><a href="{:U('Orders/create')}"><i class="article"></i><em>订单生成</em></a></li>
+       <!-- </ul>
+        <ul>-->
+            <li><a href="{:U('Check/check')}"><i class="page"></i><em>信息审核</em></a></li>
+            <li><a href="{:U('Address/address')}"><i class="productCat"></i><em>地址管理</em></a></li>
+            <!--<li><a href="{:U('Article/article')}"><i class="article"></i><em>文章列表</em></a></li>-->
+      <!--  </ul>
+        <ul class="bot">-->
+            <li><a href="{:U('Admin/manager')}"><i class="manager"></i><em>网站管理员</em></a></li>
+            <li><a href="{:U('User/user')}"><i class="manager"></i><em>用户信息</em></a></li>
+        </ul>
+    </div></div>
+    <script type="text/javascript">
+        $("#menu ul li").click( function () {
+            $(this).siblings('li').removeClass('cur');  // 删除其他兄弟元素的样式
+
+            $(this).addClass('cur'); ;
+
+        });
+    </script>

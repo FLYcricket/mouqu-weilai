@@ -1,0 +1,53 @@
+<include file="Common:header"/>
+<div id="dcMain">
+    <!-- 当前位置 -->
+    <div id="urHere">谋趣 管理中心<b>></b><strong>订单列表</strong></div>
+    <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
+        <div id="list"><h3><a href="orders.html" class="actionBtn">返回列表</a>订单编辑</h3>
+            <form name="action" method="post" action="{:U('Orders/insert')}">
+                <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+                    <tr>
+                        <th>订单号</th>
+                        <td>{$orders.id}<input type="hidden" name="id" value="{$orders.id}" size="40" class="inpMain"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="center">订单</th>
+                        <td>{$orders.content}</td>
+                    </tr>
+                    <tr>
+                        <th align="center">价格</th>
+                        <td>{$orders.price}</td>
+                    </tr>
+                    <tr>
+                        <th align="center">评星</th>
+                        <td>{$orders.stars}</td>
+                    </tr>
+                    <tr>
+                        <th align="center">评价</th>
+                        <td>{$orders.assess}</td>
+                    </tr>
+                    <tr>
+                        <th align="center">状态</th>
+                        <td>
+                            <select name="status">
+                                <option value="">-请选择-</option>
+                                <option value="1">-订单已退订-</option>
+                                <option value="2">-订单已发布-</option>
+                                <option value="3">-商家已接单-</option>
+                                <option value="4">-订单正在配送-</option>
+                                <option value="5">-订单已完成-</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2" align="center"><input type="submit" class="btn" value="提交">&nbsp;&nbsp;&nbsp;
+                        </th>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<include file="Common:footer"/>

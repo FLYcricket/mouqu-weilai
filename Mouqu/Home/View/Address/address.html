@@ -1,0 +1,34 @@
+<include file="Common:header"/>
+<div id="dcMain">
+    <!-- 当前位置 -->
+    <div id="urHere">谋趣 管理中心<b>></b><strong>地址列表</strong> </div>   <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
+    <div id="list"><h3>订单</h3>
+            <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+                <tr>
+                    <th width="40" align="center">对应用户id</th>
+                    <th width="40">姓名</th>
+                    <th width="100" align="center">性别</th>
+                    <th width="100" align="center">手机</th>
+                    <th width="100" align="center">地址</th>
+                    <th width="100" align="center">状态</th>
+                </tr>
+                <volist name="address" id="address">
+                    <tr>
+                        <td align="center">{$address.userid}</td>
+                        <td align="center">{$address.name}</td>
+                        <td align="center">{$address.sex}</td>
+                        <td align="center">{$address.phone}</td>
+                        <td align="center">{$address.address}</td>
+                        <td align="center"><span style="color: red ">{$address.status}</span>&nbsp;&nbsp;(1:默认地址，0:候补地址)</td>
+                    </tr>
+                </volist>
+            </table>
+        <div class="page1">
+            {$pager->show()}
+        </div>
+    </div>
+
+    <div class="clear"></div>
+              </div>
+</div>
+<include file="Common:footer"/>

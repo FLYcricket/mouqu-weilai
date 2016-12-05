@@ -1,0 +1,2378 @@
+[ 2016-11-25T09:46:38+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined variable: error_tips D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\ec7bf4e9685a64d00f7346ec6ee8767d.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002810s ]
+
+[ 2016-11-25T10:12:34+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: error_tips D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\ec7bf4e9685a64d00f7346ec6ee8767d.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-11-25T10:12:52+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0942s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000711s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001763s ]
+
+[ 2016-11-25T10:12:54+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Undefined variable: error_tips D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\ec7bf4e9685a64d00f7346ec6ee8767d.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2016-11-25T10:12:58+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.2604s ]
+SQL: SELECT * FROM `admin` WHERE ( username='xiaofei' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000578s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002182s ]
+
+[ 2016-11-25T10:12:59+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: error_tips D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\ec7bf4e9685a64d00f7346ec6ee8767d.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2016-11-25T10:13:03+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `admin` WHERE ( username='xiaofei' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-11-25T10:13:04+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined variable: error_tips D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\ec7bf4e9685a64d00f7346ec6ee8767d.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2016-11-25T10:13:08+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1017s ]
+SQL: SELECT * FROM `admin` WHERE ( username='FLYcricket' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: power D:\wamp\www\thinkphp\Mouqu\Home\Controller\LoginController.class.php 第 28 行.
+SQL: update admin set login_log = '2016-11-25 10:13:07' where username='FLYcricket'  [ RunTime:0.0622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000575s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003701s ]
+
+[ 2016-11-25T10:13:11+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000365s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000753s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002872s ]
+
+[ 2016-11-25T10:13:28+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Payapi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载控制器:Payapi
+
+[ 2016-11-25T10:15:23+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Payapi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+ERR: 无法加载控制器:Payapi
+
+[ 2016-11-25T10:15:25+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Payapi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+ERR: 无法加载控制器:Payapi
+
+[ 2016-11-25T10:15:47+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Payapi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+ERR: 无法加载控制器:Payapi
+
+[ 2016-11-25T10:16:13+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Payapi/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+ERR: 无法加载控制器:Payapi
+
+[ 2016-11-25T10:16:16+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Payapi/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+ERR: 无法加载控制器:Payapi
+
+[ 2016-11-25T10:54:18+08:00 ] 127.0.0.1 /thinkphp/mouqu.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-11-25T11:41:24+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined variable: error_tips D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\ec7bf4e9685a64d00f7346ec6ee8767d.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006425s ]
+
+[ 2016-11-25T11:41:31+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `admin` WHERE ( username='FLYcricket' ) LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: power D:\wamp\www\thinkphp\Mouqu\Home\Controller\LoginController.class.php 第 28 行.
+SQL: update admin set login_log = '2016-11-25 11:41:31' where username='FLYcricket'  [ RunTime:0.0526s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002040s ]
+
+[ 2016-11-25T11:41:34+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2016-11-25T11:41:36+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT orders.*,user.username,status.name FROM `orders` right JOIN user ON user.id=orders.ad_id right JOIN status ON status.id=orders.status  WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2016-11-25T11:42:51+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/User/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `username`,`created`,`sex`,`age`,`tag`,`location`,`hometown`,`phone`,`info` FROM `user` LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-11-25T11:42:56+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Admin/manager.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin` LIMIT 0,3   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000476s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-25T11:46:55+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT orders.*,user.username,status.name FROM `orders` right JOIN user ON user.id=orders.ad_id right JOIN status ON status.id=orders.status  WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-11-25T11:46:56+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username,status.name FROM `orders` right JOIN user ON user.id=orders.ad_id right JOIN status ON status.id=orders.status  WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-11-25T11:46:57+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username,status.name FROM `orders` right JOIN user ON user.id=orders.ad_id right JOIN status ON status.id=orders.status  WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2016-11-25T11:50:17+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT orders.*,user.username,status.name FROM `orders` right JOIN user ON user.id=orders.ad_id right JOIN status ON status.id=orders.status  WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-11-25T12:37:14+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Check/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `check_info` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `check_info` LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT check_info.id,check_info.name,check_info.remarks,check_info.status,user.username FROM `check_info` left JOIN user ON user.id=check_info.userid   LIMIT 0,8   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2016-11-25T12:37:14+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT orders.*,user.username,status.name FROM `orders` right JOIN user ON user.id=orders.ad_id right JOIN status ON status.id=orders.status  WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2016-11-25T14:40:46+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009300s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT orders.*,user.username,status.name FROM `orders` right JOIN user ON user.id=orders.ad_id right JOIN status ON status.id=orders.status  WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.023320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001748s ]
+
+[ 2016-11-25T14:41:17+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username,status.name FROM `orders` right JOIN user ON user.id=orders.ad_id right JOIN status ON status.id=orders.status  WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-11-25T14:42:41+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username,status.name FROM `orders` right JOIN user ON user.id=orders.ad_id right JOIN status ON status.id=orders.status  WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001638s ]
+
+[ 2016-11-25T15:52:22+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016366s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1054:Unknown column 'orders.status' in 'on clause'
+ [ SQL语句 ] : SELECT orders.*,user.username,status.name FROM `orders` right JOIN user ON user.id=orders.ad_id right JOIN status ON status.id=orders.status  WHERE ( orders.ad_id=user.id ) LIMIT 0,2  
+ERR: 1054:Unknown column 'orders.status' in 'on clause'
+ [ SQL语句 ] : SELECT orders.*,user.username,status.name FROM `orders` right JOIN user ON user.id=orders.ad_id right JOIN status ON status.id=orders.status  WHERE ( orders.ad_id=user.id ) LIMIT 0,2  
+
+[ 2016-11-25T15:55:31+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0302s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000525s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2016-11-25T15:58:58+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2016-11-25T16:15:36+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0258s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-11-25T16:17:18+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0229s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-11-25T16:17:18+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-11-25T16:22:18+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+NOTIC: [2] rand() expects parameter 1 to be long, string given D:\wamp\www\thinkphp\Mouqu\Home\Controller\OrdersController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-11-25T16:22:21+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [2] rand() expects parameter 1 to be long, string given D:\wamp\www\thinkphp\Mouqu\Home\Controller\OrdersController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2016-11-25T16:23:34+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [2] rand() expects parameter 1 to be long, string given D:\wamp\www\thinkphp\Mouqu\Home\Controller\OrdersController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-11-25T16:26:02+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+NOTIC: [2] rand() expects parameter 1 to be long, string given D:\wamp\www\thinkphp\Mouqu\Home\Controller\OrdersController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2016-11-25T16:26:05+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [2] rand() expects parameter 1 to be long, string given D:\wamp\www\thinkphp\Mouqu\Home\Controller\OrdersController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2016-11-25T16:27:06+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given D:\wamp\www\thinkphp\Mouqu\Home\Controller\OrdersController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-11-25T16:27:36+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given D:\wamp\www\thinkphp\Mouqu\Home\Controller\OrdersController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-11-25T16:28:31+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given D:\wamp\www\thinkphp\Mouqu\Home\Controller\OrdersController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-11-25T16:28:51+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given D:\wamp\www\thinkphp\Mouqu\Home\Controller\OrdersController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-11-25T16:30:04+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\thinkphp\Mouqu\Home\Controller\OrdersController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2016-11-25T16:32:25+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given D:\wamp\www\thinkphp\Mouqu\Home\Controller\OrdersController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2016-11-25T16:32:27+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+NOTIC: [2] rand() expects exactly 2 parameters, 1 given D:\wamp\www\thinkphp\Mouqu\Home\Controller\OrdersController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-11-25T16:33:03+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-11-25T16:36:19+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-11-25T16:36:36+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0388s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: orderid D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 78 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 79 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 80 行.
+NOTIC: [8] Undefined index: price D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 81 行.
+NOTIC: [8] Undefined index: stars D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 82 行.
+NOTIC: [8] Undefined index: assess D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 84 行.
+NOTIC: [8] Undefined index: created D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 85 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 87 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-11-25T16:36:39+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: orderid D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 78 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 79 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 80 行.
+NOTIC: [8] Undefined index: price D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 81 行.
+NOTIC: [8] Undefined index: stars D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 82 行.
+NOTIC: [8] Undefined index: assess D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 84 行.
+NOTIC: [8] Undefined index: created D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 85 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 87 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-11-25T16:36:39+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Undefined variable: orderid D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 78 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 79 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 80 行.
+NOTIC: [8] Undefined index: price D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 81 行.
+NOTIC: [8] Undefined index: stars D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 82 行.
+NOTIC: [8] Undefined index: assess D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 84 行.
+NOTIC: [8] Undefined index: created D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 85 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 87 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-11-25T16:36:40+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-11-25T16:36:41+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0295s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: orderid D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 78 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 79 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 80 行.
+NOTIC: [8] Undefined index: price D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 81 行.
+NOTIC: [8] Undefined index: stars D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 82 行.
+NOTIC: [8] Undefined index: assess D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 84 行.
+NOTIC: [8] Undefined index: created D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 85 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 87 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2016-11-25T16:36:45+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0225s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] Undefined variable: orderid D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 78 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 79 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 80 行.
+NOTIC: [8] Undefined index: price D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 81 行.
+NOTIC: [8] Undefined index: stars D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 82 行.
+NOTIC: [8] Undefined index: assess D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 84 行.
+NOTIC: [8] Undefined index: created D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 85 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 87 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-11-25T16:37:08+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined variable: orderid D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 78 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 79 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 80 行.
+NOTIC: [8] Undefined index: price D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 81 行.
+NOTIC: [8] Undefined index: stars D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 82 行.
+NOTIC: [8] Undefined index: assess D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 84 行.
+NOTIC: [8] Undefined index: created D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 85 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 87 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-11-25T16:37:09+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: orderid D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 78 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 79 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 80 行.
+NOTIC: [8] Undefined index: price D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 81 行.
+NOTIC: [8] Undefined index: stars D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 82 行.
+NOTIC: [8] Undefined index: assess D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 84 行.
+NOTIC: [8] Undefined index: created D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 85 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 87 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-11-25T16:37:09+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0510s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined variable: orderid D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 78 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 79 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 80 行.
+NOTIC: [8] Undefined index: price D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 81 行.
+NOTIC: [8] Undefined index: stars D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 82 行.
+NOTIC: [8] Undefined index: assess D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 84 行.
+NOTIC: [8] Undefined index: created D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 85 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 87 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-11-25T16:37:10+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0215s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] Undefined variable: orderid D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 78 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 79 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 80 行.
+NOTIC: [8] Undefined index: price D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 81 行.
+NOTIC: [8] Undefined index: stars D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 82 行.
+NOTIC: [8] Undefined index: assess D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 84 行.
+NOTIC: [8] Undefined index: created D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 85 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 87 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-11-25T16:37:10+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0199s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Undefined variable: orderid D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 78 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 79 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 80 行.
+NOTIC: [8] Undefined index: price D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 81 行.
+NOTIC: [8] Undefined index: stars D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 82 行.
+NOTIC: [8] Undefined index: assess D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 84 行.
+NOTIC: [8] Undefined index: created D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 85 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 87 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-11-25T16:37:33+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0272s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2016-11-25T16:37:35+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-11-25T16:37:57+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2016-11-25T16:37:59+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-11-25T16:38:02+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-11-25T16:39:07+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-11-25T16:39:19+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-11-25T16:39:46+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2016-11-25T16:40:42+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2016-11-25T16:43:30+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 78 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 82 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-11-25T16:43:47+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003224s ]
+
+[ 2016-11-25T16:43:49+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 67 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002246s ]
+
+[ 2016-11-25T16:44:56+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-11-25T16:47:32+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 72 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 76 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 80 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 84 行.
+NOTIC: [8] Undefined variable: orders D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\0fddbeaab936abaf6c420bf71982651b.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001732s ]
+
+[ 2016-11-25T16:53:14+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-11-25T16:54:59+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-11-25T16:55:24+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-11-25T17:05:38+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001736s ]
+
+[ 2016-11-25T17:06:36+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0195s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `orders` (`orderid`,`content`) VALUES ('MQ_20161125170538137','金峰大厦') [ RunTime:0.2788s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-11-25T17:06:40+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Admin/manager.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0495s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0326s ]
+SQL: SELECT * FROM `admin` LIMIT 0,3   [ RunTime:0.0124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-11-25T17:06:59+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+
+[ 2016-11-25T17:07:02+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0367s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-11-25T17:07:03+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-11-25T17:07:05+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0346s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-11-25T17:10:31+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-11-25T17:10:52+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0711s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `orders` (`orderid`,`ad_id`,`content`,`price`,`num`,`tag`,`otherfee`,`create`) VALUES ('MQ_201611251710315048','1','找辆车去转塘','11','1','打车','0','2016-11-25 17:10:52') [ RunTime:0.0823s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2016-11-25T17:10:56+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0252s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-11-25T17:10:58+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0232s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 2,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-11-25T17:11:00+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002212s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-11-25T17:11:02+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2016-11-25T17:12:08+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-11-25T17:12:54+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0746s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `orders` (`orderid`,`ad_id`,`content`,`price`,`num`,`tag`,`otherfee`,`create`) VALUES ('MQ_20161125171208914','1','搬家','444','1','家政','12','2016-11-25 17:12:54') [ RunTime:0.0509s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2016-11-25T17:12:57+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0232s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2016-11-25T17:12:59+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001803s ]
+
+[ 2016-11-25T17:14:19+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002367s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-11-25T17:14:21+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0219s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-11-25T17:14:42+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Orders/orders/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT orders.*,user.username FROM `orders` right JOIN user ON user.id=orders.ad_id   WHERE ( orders.ad_id=user.id ) LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\318d64727970ad46bf23190104213259.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001246s ]
+

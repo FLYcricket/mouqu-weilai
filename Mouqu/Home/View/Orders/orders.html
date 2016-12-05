@@ -1,0 +1,73 @@
+<include file="Common:header"/>
+<div id="dcMain">
+    <!-- 当前位置 -->
+    <div id="urHere">谋趣 管理中心<b>></b><strong>订单列表</strong></div>
+    <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
+        <h3>订单</h3>
+
+        <div class="filter">
+            <form action="{:U('Orders/orders')}" method="post">
+                <select name="cat">
+                    <option value="0">-请选择查询类-</option>
+                    <option value="user.username" >用户名</option>
+                    <option value="orders.orderid">订单号</option>
+                    <option  value="orders.content">订单内容</option>
+                </select>
+                <input name="keywords" type="text" class="inpMain" value="" size="20"/>
+                <input name="submit" class="btnGray" type="submit" value="筛选"/>
+                <!--<input name="reset" class="btnGray" type="submit" value="重置"/>-->
+            </form>
+        </div>
+        <div id="list">
+
+            <form name="action" method="post" action="">
+                <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+                    <tr>
+                        <th width="40" align="center">用户名</th>
+                        <th width="40">订单号</th>
+                        <th width="100" align="center">订单</th>
+                        <th width="40" align="center">价格</th>
+                        <th width="40" align="center">是否接单</th>
+                        <th width="40" align="center">状态</th>
+                        <th width="100" align="center">添加日期</th>
+                        <th width="100" align="center">处理人</th>
+                        <th width="100" align="center">操作</th>
+                    </tr>
+
+                    <volist name="orders" id="orders">
+                        <tr>
+                            <td align="center">{$orders.username}</td>
+                            <td align="center">{$orders.orderid}</td>
+                            <td align="center">{$orders.content}</td>
+                            <td align="center">￥{$orders.price}</td>
+                            <eq name="orders.servicestatus" value="0">
+                                <td align="center" style="color: red">未被接单</td>
+                                <else/>
+                                <td align="center" style="color: lawngreen">已接单</td>
+                            </eq>
+
+                            <eq name="orders.orderstatus" value="未发布">
+                                <td align="center" style="color: red">未发布</td>
+                                <else/>
+                                <td align="center" style="color: lawngreen">已发布</td>
+                            </eq>
+                            <td align="center">{$orders.create}</td>
+                            <td align="center">{$orders.manage}</td>
+                            <td align="center">
+                                <a href="{:U('Orders/publish')}?id={$orders.id}">
+                                    <span style="background:darkkhaki;width: 40px;color: #ff1228">【发布】</span></a>
+                                | <a href="{:U('Orders/edit')}?id={$orders.id}">编辑</a>
+                                | <a href="{:U('Orders/delete')}?id={$orders.id}">删除</a>
+                            </td>
+                        </tr>
+                    </volist>
+                </table>
+            </form>
+            <div class="page1">
+                {$pager->show()}
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<include file="Common:footer"/>

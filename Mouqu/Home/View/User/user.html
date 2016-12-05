@@ -1,0 +1,40 @@
+<include file="Common:header"/>
+<div id="dcMain">
+    <!-- 当前位置 -->
+    <div id="urHere">谋趣 管理中心<b>></b><strong>用户列表</strong> </div>   <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
+    <div id="list"><h3>用户列表</h3>
+        <form name="action" method="post" action="{:U('Article/delete_all_article')}">
+            <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+                <tr>
+                    <th width="40" align="center">用户名</th>
+                    <th width="40">手机号</th>
+                    <th width="100" align="center">性别</th>
+                    <th width="100" align="center">年龄</th>
+                    <th width="100" align="center">住址</th>
+                    <th width="100" align="center">家乡</th>
+                    <th width="80" align="center">个人说明</th>
+                    <th width="80" align="center">创建时间</th>
+                </tr>
+
+                <volist name="users" id="users">
+                    <tr>
+                        <td align="center">{$users.username}</td>
+                        <td align="center">{$users.phone}</td>
+                        <td align="center">{$users.sex}</td>
+                        <td align="center">{$users.age}</td>
+                        <td align="center">{$users.location}</td>
+                        <td align="center">{$users.hometown}</td>
+                        <td align="center" id="tag">{$users.info}</td>
+                        <td align="center">{$users.created}</td>
+                    </tr>
+                </volist>
+            </table>
+        </form>
+        <div class="page1">
+            {$pager->show()}
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+</div>
+<include file="Common:footer"/>

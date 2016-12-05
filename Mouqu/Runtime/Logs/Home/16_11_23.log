@@ -1,0 +1,38 @@
+[ 2016-11-23T15:50:57+08:00 ] 127.0.0.1 /thinkphp/mouqu.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015645s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016015s ]
+
+[ 2016-11-23T15:50:59+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000396s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Undefined variable: error_tips D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\ec7bf4e9685a64d00f7346ec6ee8767d.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007306s ]
+

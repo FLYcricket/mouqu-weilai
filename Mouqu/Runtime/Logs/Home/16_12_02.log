@@ -1,0 +1,42 @@
+[ 2016-12-02T10:05:40+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.064110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015920s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.042604s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.043255s ]
+NOTIC: [8] Undefined variable: error_tips D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\ec7bf4e9685a64d00f7346ec6ee8767d.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.385342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.385575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001685s ]
+
+[ 2016-12-02T15:15:11+08:00 ] 127.0.0.1 /thinkphp/mouqu.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015641s ]
+NOTIC: [8] Undefined variable: error_tips D:\wamp\www\thinkphp\Mouqu\Runtime\Cache\Home\ec7bf4e9685a64d00f7346ec6ee8767d.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001803s ]
+
